@@ -1,0 +1,56 @@
+# Ignora archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignora archivos de entornos de desarrollo y editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignora dependencias de Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignora archivos de compilación y generados
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+# Ignora archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignora archivos de logs y bases de datos
+*.log
+*.sqlite
+*.db
+
+# Ignora archivos de paquetes y compresión
+*.zip
+*.tar.gz
+*.rar
+
+# Ignora archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
