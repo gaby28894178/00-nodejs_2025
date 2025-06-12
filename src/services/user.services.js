@@ -18,7 +18,9 @@ const createUser = ({ name, email }) => {
   users.push(newUser);
   return newUser;
 };
-
+const updateUser = (id,name)=>{
+  const userDound = users.find((user)=>user=>id===id);
+}
 
 
 
